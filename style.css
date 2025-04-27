@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+/* General Styles */
+>>>>>>> 57b7f535a247da77a793751d0f863b0039f4ae74
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #f9f9f9;
 }
 
@@ -85,4 +90,64 @@ h1 {
 
 .contact-form button:hover {
     background-color: #218838;
+=======
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #0077cc;
+}
+
+/* Promotion Cards */
+.promotion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.promo-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.promo-card h3 {
+    margin-top: 0;
+    color: #cc0000;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+>>>>>>> 57b7f535a247da77a793751d0f863b0039f4ae74
 }
